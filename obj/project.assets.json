@@ -1,0 +1,167 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "VVVV.EmguCV/2.4.2.1": {
+        "type": "package",
+        "build": {
+          "build/net40/VVVV.EmguCV.props": {},
+          "build/net40/VVVV.EmguCV.targets": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "VVVV.EmguCV/2.4.2.1": {
+      "sha512": "gD9MHm5m3FPIeC4IvApPHTK+DNwFtLOWGSUMSAW/MXhvXEFIB5qa+puQKa8SZ4Mun5VE9A8L99yuqeFRLkyW+Q==",
+      "type": "package",
+      "path": "vvvv.emgucv/2.4.2.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "build.ps1",
+        "build/net40/VVVV.EmguCV.props",
+        "build/net40/VVVV.EmguCV.targets",
+        "build/net40/lib/Emgu.CV.GPU.dll",
+        "build/net40/lib/Emgu.CV.ML.dll",
+        "build/net40/lib/Emgu.CV.OCR.dll",
+        "build/net40/lib/Emgu.CV.Stitching.dll",
+        "build/net40/lib/Emgu.CV.UI.dll",
+        "build/net40/lib/Emgu.CV.VideoStab.dll",
+        "build/net40/lib/Emgu.CV.dll",
+        "build/net40/lib/Emgu.Util.dll",
+        "build/net40/opencv/x64/cublas64_42_9.dll",
+        "build/net40/opencv/x64/cudart64_42_9.dll",
+        "build/net40/opencv/x64/cufft64_42_9.dll",
+        "build/net40/opencv/x64/cvextern.dll",
+        "build/net40/opencv/x64/npp64_42_9.dll",
+        "build/net40/opencv/x64/opencv_calib3d242.dll",
+        "build/net40/opencv/x64/opencv_contrib242.dll",
+        "build/net40/opencv/x64/opencv_core242.dll",
+        "build/net40/opencv/x64/opencv_features2d242.dll",
+        "build/net40/opencv/x64/opencv_ffmpeg242_64.dll",
+        "build/net40/opencv/x64/opencv_flann242.dll",
+        "build/net40/opencv/x64/opencv_gpu242.dll",
+        "build/net40/opencv/x64/opencv_highgui242.dll",
+        "build/net40/opencv/x64/opencv_imgproc242.dll",
+        "build/net40/opencv/x64/opencv_legacy242.dll",
+        "build/net40/opencv/x64/opencv_ml242.dll",
+        "build/net40/opencv/x64/opencv_nonfree242.dll",
+        "build/net40/opencv/x64/opencv_objdetect242.dll",
+        "build/net40/opencv/x64/opencv_photo242.dll",
+        "build/net40/opencv/x64/opencv_stitching242.dll",
+        "build/net40/opencv/x64/opencv_video242.dll",
+        "build/net40/opencv/x64/opencv_videostab242.dll",
+        "build/net40/opencv/x86/cublas32_42_9.dll",
+        "build/net40/opencv/x86/cudart32_42_9.dll",
+        "build/net40/opencv/x86/cufft32_42_9.dll",
+        "build/net40/opencv/x86/cvextern.dll",
+        "build/net40/opencv/x86/npp32_42_9.dll",
+        "build/net40/opencv/x86/opencv_calib3d242.dll",
+        "build/net40/opencv/x86/opencv_contrib242.dll",
+        "build/net40/opencv/x86/opencv_core242.dll",
+        "build/net40/opencv/x86/opencv_features2d242.dll",
+        "build/net40/opencv/x86/opencv_ffmpeg242.dll",
+        "build/net40/opencv/x86/opencv_flann242.dll",
+        "build/net40/opencv/x86/opencv_gpu242.dll",
+        "build/net40/opencv/x86/opencv_highgui242.dll",
+        "build/net40/opencv/x86/opencv_imgproc242.dll",
+        "build/net40/opencv/x86/opencv_legacy242.dll",
+        "build/net40/opencv/x86/opencv_ml242.dll",
+        "build/net40/opencv/x86/opencv_nonfree242.dll",
+        "build/net40/opencv/x86/opencv_objdetect242.dll",
+        "build/net40/opencv/x86/opencv_photo242.dll",
+        "build/net40/opencv/x86/opencv_stitching242.dll",
+        "build/net40/opencv/x86/opencv_video242.dll",
+        "build/net40/opencv/x86/opencv_videostab242.dll",
+        "vvvv.emgucv.2.4.2.1.nupkg.sha512",
+        "vvvv.emgucv.nuspec"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETCoreApp,Version=v3.1": [
+      "VVVV.EmguCV >= 2.4.2.1"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\KINGWISDOM\\.nuget\\packages\\": {},
+    "C:\\Microsoft\\Xamarin\\NuGet\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\KINGWISDOM\\source\\repos\\EmployeeFaceCapure\\EmployeeFaceCapure.csproj",
+      "projectName": "EmployeeFaceCapure",
+      "projectPath": "C:\\Users\\KINGWISDOM\\source\\repos\\EmployeeFaceCapure\\EmployeeFaceCapure.csproj",
+      "packagesPath": "C:\\Users\\KINGWISDOM\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\KINGWISDOM\\source\\repos\\EmployeeFaceCapure\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Microsoft\\Xamarin\\NuGet\\"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\KINGWISDOM\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "netcoreapp3.1"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netcoreapp3.1": {
+        "dependencies": {
+          "VVVV.EmguCV": {
+            "target": "Package",
+            "version": "[2.4.2.1, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          },
+          "Microsoft.WindowsDesktop.App.WPF": {
+            "privateAssets": "none"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
+      }
+    }
+  },
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'VVVV.EmguCV 2.4.2.1' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework '.NETCoreApp,Version=v3.1'. This package may not be fully compatible with your project.",
+      "libraryId": "VVVV.EmguCV",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    }
+  ]
+}

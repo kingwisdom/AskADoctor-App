@@ -1,0 +1,21 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "VVVV.EmguCV/2.4.2.1": {}
+    }
+  },
+  "libraries": {
+    "VVVV.EmguCV/2.4.2.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-gD9MHm5m3FPIeC4IvApPHTK+DNwFtLOWGSUMSAW/MXhvXEFIB5qa+puQKa8SZ4Mun5VE9A8L99yuqeFRLkyW+Q==",
+      "path": "vvvv.emgucv/2.4.2.1",
+      "hashPath": "vvvv.emgucv.2.4.2.1.nupkg.sha512"
+    }
+  }
+}

@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="123808,1234146973,1.jpg" />
+    <None Remove="3d-colors-backgrounds-powerpoint.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="VVVV.EmguCV" Version="2.4.2.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="123808,1234146973,1.jpg" />
+    <Resource Include="3d-colors-backgrounds-powerpoint.jpg" />
+  </ItemGroup>
+
+</Project>

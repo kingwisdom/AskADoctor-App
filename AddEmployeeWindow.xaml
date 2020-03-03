@@ -1,0 +1,118 @@
+﻿<Window x:Class="EmployeeFaceCapure.AddEmployeeWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:EmployeeFaceCapure"
+        mc:Ignorable="d"
+        Title="Add Employee" Height="550" Width="800">
+    
+    <Border Padding="20">
+        <StackPanel>
+
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+
+                <StackPanel Grid.Column="0">
+                    <StackPanel>
+                        <TextBlock Text="Captured Image" TextAlignment="Center" FontWeight="Bold"/>
+                    </StackPanel>
+                    <StackPanel Width="312">
+                       <Image Width="200" Height="200"/>
+                        <Button Content="Start Capture" FontSize="18" FontWeight="Bold" Padding="10" Margin="0 0 10 0" Background="LightSkyBlue" BorderThickness="0" Width="258" Click="Button_Click" />
+
+                    </StackPanel>
+                    <StackPanel>
+                        <DataGrid x:Name="dgView" SelectionChanged="DataGrid_SelectionChanged" Height="182" />
+                    </StackPanel> 
+
+                </StackPanel>
+                
+                <StackPanel Grid.Column="1">
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*" />
+                            <ColumnDefinition Width="2*" />
+                        </Grid.ColumnDefinitions>
+                        
+                        <TextBlock Padding="0 10" Text="Name" Grid.Column="0" FontSize="18" Margin="0 10" />
+                        <TextBox x:Name="txtName" Grid.Column="1" Padding="10" Margin="0 10" />
+
+                    </Grid>
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*" />
+                            <ColumnDefinition Width="2*" />
+                        </Grid.ColumnDefinitions>
+
+                        <TextBlock Padding="0 10" Margin="0 10" Text="Email" Grid.Column="0" FontSize="18" />
+                        <TextBox x:Name="txtEmail" Grid.Column="1" Margin="0 10" Padding="10" />
+
+                    </Grid>
+
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*" />
+                            <ColumnDefinition Width="2*" />
+                        </Grid.ColumnDefinitions>
+
+                        <TextBlock Padding="0 10" Margin="0 10" Text="Sex" Grid.Column="0" FontSize="18" />
+                        <ComboBox x:Name="comboSex" Padding="0 10" Margin="0 10" Grid.Column="1">
+                            <ComboBoxItem>Male</ComboBoxItem>
+                            <ComboBoxItem>Female</ComboBoxItem>
+                        </ComboBox>
+                    </Grid>
+
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*" />
+                            <ColumnDefinition Width="2*" />
+                        </Grid.ColumnDefinitions>
+
+                        <TextBlock Padding="0 10" Margin="0 10" Text="Date Employed" Grid.Column="0" FontSize="18" />
+                        <DatePicker x:Name="DPdate" Grid.Column="1" Padding="0 10" Margin="0 10" />
+                    </Grid>
+
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*" />
+                            <ColumnDefinition Width="2*" />
+                        </Grid.ColumnDefinitions>
+
+                        <TextBlock Padding="0 10" Margin="0 10" Text="Salary" Grid.Column="0" FontSize="18" />
+                        <TextBox x:Name="txtSalary" Grid.Column="1" Margin="0 10" Padding="10" />
+
+                    </Grid>
+
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*" />
+                            <ColumnDefinition Width="2*" />
+                        </Grid.ColumnDefinitions>
+
+                        <TextBlock Padding="0 10" Margin="0 10" Text="Department" Grid.Column="0" FontSize="18" />
+                        <ComboBox x:Name="txtDepartment" Padding="0 10" Margin="0 10" Grid.Column="1">
+                            
+                        </ComboBox>
+                    </Grid>
+
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*" />
+                            <ColumnDefinition Width="2*" />
+                        </Grid.ColumnDefinitions>
+
+                        <Button Grid.Column="0" Content="Capture" FontSize="18" FontWeight="Bold" Padding="15" Margin="0 0 10 0" Background="LightSkyBlue" BorderThickness="0" />
+                        <Button x:Name="btnSave" Grid.Column="1" Content="Save Data" FontSize="18" FontWeight="Bold" Padding="15" Click="btnSave_Click" />
+                    </Grid>
+
+                </StackPanel>
+
+            </Grid>
+            
+         </StackPanel>
+    </Border>
+</Window>
